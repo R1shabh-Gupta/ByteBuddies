@@ -13,7 +13,7 @@ const Navbar = () => {
           src="/assets/images/site-logo.svg"
           width={23}
           height={23}
-          alt="Dev Overflow Logo"
+          alt="Byte Buddies Logo"
         />
         <p className="h2-bold font-spaceGrotesk text-dark-100 max-sm:hidden dark:text-light-900">
           Byte <span className="text-primary-500">Buddies</span>
