@@ -4,33 +4,33 @@ import RenderTag from "./RenderTag";
 
 const hotQuestions = [
   {
-    _id: 1,
+    _id: "1",
     title: "How to center a div horizontally and vertically in CSS?",
   },
   {
-    _id: 2,
+    _id: "2",
     title: "How to make a div 100% height of the browser window?",
   },
   {
-    _id: 3,
+    _id: "3",
     title: "How to make a div 100% height of the browser window?",
   },
   {
-    _id: 4,
+    _id: "4",
     title: "How to make a div 100% height of the browser window?",
   },
   {
-    _id: 5,
+    _id: "5",
     title: "How to declare and initialize a variable in JavaScript?",
   },
 ];
 
 const popularTags = [
-  { _id: 1, name: "javascript", totalQuestions: 5 },
-  { _id: 2, name: "react", totalQuestions: 5 },
-  { _id: 3, name: "css", totalQuestions: 2 },
-  { _id: 4, name: "html", totalQuestions: 3 },
-  { _id: 5, name: "nodejs", totalQuestions: 9 },
+  { _id: "1", name: "javascript", totalQuestions: 5 },
+  { _id: "2", name: "react", totalQuestions: 5 },
+  { _id: "3", name: "css", totalQuestions: 2 },
+  { _id: "4", name: "html", totalQuestions: 3 },
+  { _id: "5", name: "nodejs", totalQuestions: 9 },
 ];
 
 const RightSidebar = async () => {

@@ -1,8 +1,13 @@
-import { ThemeProvider } from "@/context/ThemeProvider";
+/* eslint-disable camelcase */
+import React from "react";
+
 import { ClerkProvider } from "@clerk/nextjs";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
+
 import "./globals.css";
+
+import { ThemeProvider } from "@/context/ThemeProvider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,7 +36,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${spaceGrotesk.variable}`}>
+      <body className={`${inter.className} ${spaceGrotesk.className}`}>
         <ClerkProvider
           appearance={{
             elements: {
